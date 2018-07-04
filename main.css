@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --shadow: 0 5px 15px -5px rgba(104, 104, 104, 0.8);
+}
+
+/* Utility */
+.subtext {
+  color: rgb(84, 83, 82);
+}
+/* Navigation */
+nav {
+  background-color: #f8fcff;
+}
+/* Hero */
+#section-hero {
+  padding-top: 56px;
+}
+.jumbotron {
+  background-image: url("img/main-bg-img.jpeg");
+  background-size: cover;
+  height: 80vh;
+  box-shadow: var(--shadow);
+  color: #444;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+  }
+}
+@media (min-width: 1440px) {
+  .jumbotron {
+    background-image: url("img/laptop-plus-bg-img.jpeg");
+    background-position: 30% 30%;
+    background-size: cover;
+    color: #fff;
+  }
+}
+#section-hero h1 {
+  padding-bottom: 1em;
+}
+
+#section-hero button {
+  padding: 0.8em;
+}
+/* Services */
+#section-services i {
+  padding: 0.5em;
+}
+.services-header {
+  text-transform: uppercase;
+  padding: 0.5em;
+}
+.services-icon {
+  color: orange;
+}
+.services-title {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  color: #111;
+}
+.price-show {
+  padding: 1em;
+  border-radius: 50%;
+}
+/* .box-1 {
+  border: 3px #444 solid;
+}
+/* .box-2 {
+  border: 3px #444 solid;
+  padding-bottom: 1em;
+  background-color: rgb(213, 181, 181);
+}
+.box-3 {
+  border: 3px #444 solid;
+  padding-bottom: 1em;
+  background-color: rgb(188, 237, 149);
+}  */
+
+/* About */
+
+/* Contact */
+
+/* Gallery */
